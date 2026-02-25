@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="29.5.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="29.5.3">
   <diagram name="Página-1" id="sgokIUhS4of6NFbcLCpe">
-    <mxGraphModel>
+    <mxGraphModel dx="478" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YSAixk_76sQ3MgVGYMmq-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Grupo" vertex="1">
+          <mxGeometry height="350" width="160" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YSAixk_76sQ3MgVGYMmq-2" parent="YSAixk_76sQ3MgVGYMmq-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- nivel: int&lt;/div&gt;&lt;div&gt;- cantMiembros: int&lt;/div&gt;&lt;div&gt;- nombre: String&lt;/div&gt;&lt;div&gt;- monedas: int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YSAixk_76sQ3MgVGYMmq-3" parent="YSAixk_76sQ3MgVGYMmq-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YSAixk_76sQ3MgVGYMmq-4" parent="YSAixk_76sQ3MgVGYMmq-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;+ setNivel(nivel: int)&lt;/div&gt;&lt;div&gt;+ getNivel(): int&lt;/div&gt;&lt;div&gt;+ setCantMiembros(cant: int)&lt;/div&gt;&lt;div&gt;+ getCantMiembros(): int&lt;div&gt;+ setNombre(nombre: String)&lt;/div&gt;&lt;div&gt;+ getNombre(): String&lt;div&gt;+ setMonedas(monedas: int)&lt;/div&gt;&lt;div&gt;+ getMonedas(): int&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ aceptarPersonaje(player: Personaje)&lt;/div&gt;&lt;div&gt;+ echarPersonaje(player: Personaje)&lt;/div&gt;&lt;div&gt;+ disolverGrupo()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="252" width="160" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="YSAixk_76sQ3MgVGYMmq-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Fortaleza" vertex="1">
+          <mxGeometry height="350" width="160" x="260" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YSAixk_76sQ3MgVGYMmq-6" parent="YSAixk_76sQ3MgVGYMmq-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- nombre: String&lt;/div&gt;&lt;div&gt;- nivelDef: int&lt;/div&gt;&lt;div&gt;- tesoros: int&lt;/div&gt;&lt;div&gt;- monstruos: int&lt;/div&gt;&lt;div&gt;- vacia: boolean&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YSAixk_76sQ3MgVGYMmq-7" parent="YSAixk_76sQ3MgVGYMmq-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YSAixk_76sQ3MgVGYMmq-8" parent="YSAixk_76sQ3MgVGYMmq-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;+ setNombre(nombre: String)&lt;/div&gt;&lt;div&gt;+ getNombre(): String&lt;/div&gt;+ setNivelDef(nivelDef: int)&lt;/div&gt;&lt;div&gt;+ getNivelDef(): int&lt;div&gt;+ setTesoros(tesoros: int)&lt;/div&gt;&lt;div&gt;+ getTesoros(): int&lt;div&gt;+ setMonstruos(monstruos: int)&lt;/div&gt;&lt;div&gt;+ getMonstruos(): int&lt;div&gt;+ setVacia(resultado: boolean)&lt;/div&gt;&lt;div&gt;+ getVacia(): boolean&lt;/div&gt;&lt;div&gt;+ robarMonedas(grupo: Grupo)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="232" width="160" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="YSAixk_76sQ3MgVGYMmq-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Gremio" vertex="1">
+          <mxGeometry height="350" width="160" x="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YSAixk_76sQ3MgVGYMmq-10" parent="YSAixk_76sQ3MgVGYMmq-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- titulo: String&lt;/div&gt;&lt;div&gt;- ocupacion: String&lt;/div&gt;&lt;div&gt;- personajes: int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YSAixk_76sQ3MgVGYMmq-11" parent="YSAixk_76sQ3MgVGYMmq-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YSAixk_76sQ3MgVGYMmq-12" parent="YSAixk_76sQ3MgVGYMmq-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="262" width="160" y="88" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
