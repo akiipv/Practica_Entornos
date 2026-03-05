@@ -1,1 +1,1 @@
-Métete solo en el png, lo otro esq soy tonta (๑-﹏-๑)
+lo di todo (๑-﹏-๑)
